@@ -1,0 +1,7 @@
+<h1>Current Conditions for <%= @city %></h1>
+
+<!-- <p>Raw JSON response:</p> -->
+<p>It is <%= @data["main"]["temp"] %>F with <%= @data["weather"].at(0)["description"] %> outside</p>
+
+
+<!-- <p><%= @data %></p> -->
